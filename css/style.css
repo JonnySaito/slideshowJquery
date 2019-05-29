@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    background-color: lightgrey;
+}
+
+#imageSlider{
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+    height: 500px;
+    position: relative;
+}
+
+.slideContainer{
+    position: relative;
+    left: 0;
+    width: 2400px;
+    height: 500px;
+    transition: 1s;
+}
+
+.slideContainer::after{
+    clear: both;
+    display: block;
+    content: '';
+}
+
+.slide{
+    width: 800px;
+    float: left;
+}
+
+.slide img{
+    max-width: 100%;
+}
+
+.buttonRow{
+    text-align: center;
+}
+
+.imageButton{
+    border-radius: 20px;
+    box-shadow: 4px 8px #5e87a0;
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #ad6b82;
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
