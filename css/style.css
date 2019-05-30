@@ -15,11 +15,11 @@
 
 .slideContainer{
     position: relative;
+    transform: translateX(0);
     left: 0;
     width: 2400px;
     height: 500px;
-    transition: 1s;
-    
+    left: -800px;
 }
 
 .slideContainer::after{
@@ -37,18 +37,22 @@
     max-width: 100%;
 }
 
+.transition{
+    transition: .7s;
+}
+
 .buttonRow{
     text-align: center;
 }
 
 .imageButton{
     border-radius: 20px;
-    box-shadow: 4px 6px #5e87a0;
+    box-shadow: 4px 6px #7b7d7f;
     font-size: 30px;
-    font-family: Arial;
+    font-family: Century Gothic;
     font-weight: bold;
-    color: #ad6b82;
-    background-color: #cfeff7;
+    color: white;
+    background-color: #4c4f51;
     padding: 10px;
     margin-top: 20px;
     margin-left: 100px;
