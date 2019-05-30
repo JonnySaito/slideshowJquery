@@ -19,6 +19,7 @@
     width: 2400px;
     height: 500px;
     transition: 1s;
+    
 }
 
 .slideContainer::after{
@@ -42,12 +43,12 @@
 
 .imageButton{
     border-radius: 20px;
-    box-shadow: 4px 8px #5e87a0;
+    box-shadow: 4px 6px #5e87a0;
     font-size: 30px;
     font-family: Arial;
     font-weight: bold;
     color: #ad6b82;
-    background-color: lightblue;
+    background-color: #cfeff7;
     padding: 10px;
     margin-top: 20px;
     margin-left: 100px;

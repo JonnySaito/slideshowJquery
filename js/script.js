@@ -12,11 +12,18 @@
 // $('image2').hide();
 // $('image3').hide();
 
-$('#prevButton').click(function(){
-    console.log("previous button is clicked");
-})
+var slideImages = $('.slide');
+console.log(slideImages);
 
+slideImages[0]
+if
 
 $('#nextButton').click(function(){
+    $('#image1').
     console.log("next button is clicked");
+})
+
+$('#prevButton').click(function(){
+
+    console.log("previous button is clicked");
 })
